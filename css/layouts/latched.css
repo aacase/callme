@@ -361,7 +361,7 @@ display:inline-block;
 }
 
 .tall{
-    height: 450px;
+    height: 550px;
 }
 .gear{
     margin-right: -60px;
@@ -449,8 +449,6 @@ opacity: 0.4;
     color: #221188;
 }
 
-
-
 .enhance{
     color: #33BBAA;
 }
@@ -460,46 +458,23 @@ opacity: 0.4;
     margin-left: 2.5%;
 }
 
-.latched { position: fixed; top: 0; left: 8px; right: 8px; width: auto; }
+
 .spacer {
     width: 0;
     height: 600px;
     float: left;
      clear: both;
 }
+.zero{ background:#fff; width: 100%; height: 600px; position: relative; float: left; }
+.pos1 { background:red; width: 100%; height: 600px; position: relative; float: left; }
+.pos2 { background: blue; width: 100%; height: 600px; position: relative; float: left; }
+.pos3 { background: green; width: 100%; height: 600px; position: relative; float: left; }
+.pos4 { background: yellow; width: 100%; height: 600px; position: relative; float: left; }
+.latched { position: fixed; top: 100;  width: 100%; margin-top: 10.5%; }
 
-.fixed {
-    margin-top: 10%;
-    width: 100%;
-    
-    top: 0;
-    left: 0;
-    position: fixed !important;
-    z-index: 30;}
-.threescroll{ position: absolute;
-    top: 70%;
-    width: 100%;
-    min-height: 87%;
-    z-index: 60;}
-
-.connect{
-    margin-top: 11%;
-    background-color: #221188;
-    height: 600px;
-}
-.white{
-    color: #fff;
-}
 /* ==========================================================================
 Swag
 ========================================================================== */
-.swag { background: url('http://www.sukhothai.com/uploads/wysiwyg/documents/hi-res-images/sukhothai-bussabong-meeting-room.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 200px 0; }
-.swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; text-align: center;}
+.swag { background: url('http://i.imgur.com/UiSljD6.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 150px 0; }
+.swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
-
-/* ==========================================================================
-Swag2
-========================================================================== */
-.swag2 { background: url('http://www.voipsupply.com/blog/voip-insider/files/2012/07/LifeSize.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 200px 0; }
-.swag2 h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; text-align: center;}
-.swag2 h1 span { display: block; font-size: 25px; margin-top: 20px; }

@@ -34,8 +34,8 @@ degreeRotate += 5;
 // for the ones spinning the same direction, in order to line up the teeth of
 // the gears.
 gear1Rotate = degreeRotate;
-gear2Rotate = ((degreeRotate + 11) * -1);
-gear3Rotate = ((degreeRotate + 90) * -1);
+gear2Rotate = ((degreeRotate + 40) * -1);
+gear3Rotate = ((degreeRotate + 180) * -1);
 
 // Store the current scroll for comparison next scroll event.
 scrollPos = newScroll;

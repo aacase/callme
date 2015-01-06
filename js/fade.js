@@ -1,5 +1,5 @@
 $(document).ready(function(){
-   $('h3').hide();
+   $('.firstFade').hide();
    $('.fourth').hide();
    $('.first').fadeIn(1500, function(){
    	$('.second').fadeIn(1500, function(){
@@ -23,7 +23,7 @@ $(document).ready(function(){
      {
         
          $('#1').fadeIn(1500, function(){
-         $('#2').slideDown(1500, function(){
+         $('#2').fadeIn(1500, function(){
               $('#3').fadeIn(1500,function(){
                 $('#4').fadeIn(1500, function(){
 
