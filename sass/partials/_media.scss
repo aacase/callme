@@ -1,0 +1,47 @@
+/* ==========================================================================
+Media Queries
+========================================================================== */
+@media (max-width: 1200px) {
+        .paraSize {
+    font-size:15px;
+    }
+  /*  .meet,.enhance{
+    	height: 800px;
+    }*/
+    .bigbtn{
+    	margin-top: 38%;
+    }
+
+    .cloudImg{
+	padding-top: 00%;
+	padding-left: 00%;
+
+
+}
+.enhBtn{
+	width: 80%;
+	color: white;
+	background-color: #6AC8BC;
+	margin-top: 10%;
+	margin-left: 10%;
+}
+.navPush{
+	margin-top: 2% !important;
+	height: 100px;
+	color: $lightFont;
+	z-index: 40;
+}
+.meetHeight{
+	height: auto;
+}
+.connectPadding{
+	padding-top: 0%;
+}
+}
+
+@media (max-width: 1600px) {
+     .globe{
+     	padding-top: 13%;
+	padding-left: 17%;
+     }
+}

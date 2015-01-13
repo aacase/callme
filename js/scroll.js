@@ -155,9 +155,24 @@
     // default options
     $.fn.animatescroll.defaults = {        
         easing:"swing",
-        scrollSpeed:800,
+        scrollSpeed:3000,
         padding:0,
         element:"html,body"
     };   
     
 }(jQuery));
+
+var $cog = $('#cog'),
+    $cog2= $('#cog2')
+    $body = $(document.body),
+    bodyHeight = $body.height();
+
+$(window).scroll(function () {
+    $cog.css({
+        'transform': 'rotate(' + ($body.scrollTop() / bodyHeight * 360) + 'deg)'
+    });
+    $cog2.css({
+        'transform': 'rotate(' + (-($body.scrollTop() / bodyHeight * 360) + 'deg)')
+
+    });
+});

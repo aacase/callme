@@ -1,0 +1,45 @@
+/* ==========================================================================
+Fixed Banner
+========================================================================== */
+.navPush{
+	height: 70px;
+	color: $lightFont;
+	z-index: 40;
+}
+
+.fixedBar{
+	margin-top: 2% !important;
+	background-color: $purple;
+	width: 100%;
+	/*margin-left: 2%;*/
+	z-index: 30;
+	height: auto;
+	position: fixed;
+	color: $lightFont;
+	/*border: 1px dashed $lightFont;*/
+}
+.fixedBanner{
+	width: 98%;
+	margin-left: 1%;
+	color: $purple;
+	padding-top: 8% !important;
+	position: fixed;
+	z-index: 20;
+	background-color: $bannerBackground;
+}
+.navHeader{
+	margin-left: 35%;
+}
+
+
+
+.mobileBanner{
+	background-color: $purple;
+	color: $lightFont;
+	height: 100px;
+}
+
+.mobileSubHead{
+	background-color: $bannerBackground;
+	color: $purple;
+}

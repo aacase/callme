@@ -1,0 +1,20 @@
+/* ==========================================================================
+Globals
+========================================================================== */
+
+$purple: #221188;
+$lifesize: #6ac8bc;
+
+/* ==========================================================================
+Mixins
+========================================================================== */
+
+@mixin swag($url){
+	background: url($url) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 200px 0;
+}

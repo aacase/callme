@@ -1,0 +1,43 @@
+/* ==========================================================================
+Colors
+========================================================================== */
+
+$purple: #221188;
+$lifesize: #6ac8bc;
+$lightFont: #ffffff;
+$bannerBackground: #F1F3FA;
+
+/* ==========================================================================
+Parallax Background Images
+========================================================================== */
+
+$swag1: "../../img/01.jpg";
+$swag2: "../../img/02.jpg";
+$swag3: "../../img/03.jpg";
+
+/* ==========================================================================
+Mixins
+========================================================================== */
+
+@mixin centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+@mixin css3($property, $value) {
+@each $prefix in -webkit-, -moz-, -ms-, -o-, '' {
+#{$prefix}#{$property}: $value;
+}
+}

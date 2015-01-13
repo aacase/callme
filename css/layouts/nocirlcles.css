@@ -1,0 +1,402 @@
+/* ==========================================================================
+Globals
+========================================================================== */
+.slimDown{
+	width: 96%;
+	margin-left: 2%;
+}
+
+
+.purps{
+    color: $purple;
+}
+.purpsback{
+	background-color: $purple;
+}
+.headline{
+	font-size: 5em;
+}
+.subhead{
+	font-size: 170%;
+}
+.paraSize{
+	font-size: 2rem;
+	padding-top: 10%;
+}
+.lifesize{
+	color: #6AC8BC;
+}
+
+/* ==========================================================================
+Fixed Banner
+========================================================================== */
+.navPush{
+	height: 70px;
+	color: #fff;
+	z-index: 40;
+}
+
+.fixedBar{
+	margin-top: 2% !important;
+	background-color: $purple;
+	width: 100%;
+	/*margin-left: 2%;*/
+	z-index: 30;
+	height: auto;
+	position: fixed;
+	color: #fff;
+	border: 1px dashed #fff;
+}
+.fixedBanner{
+	width: 96%;
+	margin-right: 2%;
+	color: $purple;
+	padding-top: 8% !important;
+	position: fixed;
+	z-index: 20;
+	background-color: #F1F3FA;
+}
+.navHeader{
+	margin-left: 35%;
+}
+
+.trileft{
+    position: fixed;
+    top: 90px;
+    transform: rotate(220deg);
+    -webkit-transform: rotate(220deg);
+    -moz-transform: rotate(220deg);
+    -o-transform: rotate(220deg);
+    -ms-transform: rotate(220deg)
+    
+}
+.triright{
+    
+    position: fixed;
+    top: 90px;
+    margin-left: 99%;
+    transform: rotate(318deg);
+    -webkit-transform: rotate(318deg);
+    -moz-transform: rotate(318deg);
+    -o-transform: rotate(318deg);
+    -ms-transform: rotate(318deg)
+    
+}
+
+.mobileBanner{
+	background-color: $purple;
+	color: white;
+	height: 100px;
+}
+
+.mobileSubHead{
+	background-color: #F1F3FA;
+	color: $purple;
+}
+
+/* ==========================================================================
+Parallax Back
+========================================================================== */
+.swag { background: url('../../img/01.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 200px 0; }
+.swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; text-align: center;}
+.swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
+
+
+.swag2 { background: url('../../img/02.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 200px 0; }
+.swag2 h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; text-align: center;}
+.swag2 h1 span { display: block; font-size: 25px; margin-top: 20px; }
+
+
+.swag3 { background: url('../../img/03.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 200px 0; }
+.swag3 h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; text-align: center;}
+.swag3 h1 span { display: block; font-size: 25px; margin-top: 20px; }
+
+
+/* ==========================================================================
+Rotating Circles
+========================================================================== */
+.rotate1 {
+background:  $purple;
+display: block;
+border: 5px dotted white;
+width: 350px;
+height: 350px;
+border-radius: 50%;
+margin-left:auto;
+margin-right:auto;
+position: absolute;
+z-index: 1;
+
+}
+.rotate1 {
+-webkit-animation: rotate 24s linear infinite;
+border: 5px dotted white;
+}
+
+.rotate2 {
+background:  $purple;
+border: 5px dashed white;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+/*margin-left:25%;
+margin-top:25%;*/
+margin:23px;
+position: absolute;
+z-index: 2;
+}
+.rotate2 {
+-webkit-animation: rotate 6s linear reverse infinite;
+border: 5px dashed white;
+}
+.globe{
+width: 230px;
+height: 230px;
+border-radius: 50%;
+
+/*margin-top: 60px;
+margin-left: 19%;*/
+
+padding-top: 13%;
+padding-left: 15%;
+
+position: absolute;
+z-index: 3;
+line-height: 120px;
+font-size: 23rem;
+}
+@-webkit-keyframes rotate {
+from{
+-webkit-transform: rotate(0deg);
+}
+to{
+-webkit-transform: rotate(360deg);
+}
+}
+
+/* ==========================================================================
+Connect
+========================================================================== */
+
+.connect{
+	background-color: $purple;
+	color: #fff;
+}
+.connectPadding{
+	padding-top: 20%;
+}
+
+.bigbtn{
+	margin-top: 16%;
+	width: 150px;
+}
+
+/* ==========================================================================
+Meet
+========================================================================== */
+.meet{
+	background-image: url('http://i.imgur.com/MlGWcy7.png') ;
+    background-size: cover;
+    height: auto;
+}
+.meetHeight{
+	height: 400px;
+}
+.circle {
+width: 100px;
+height: 100px;
+background: #F2F2F2;
+-moz-border-radius: 70px;
+-webkit-border-radius: 70px;
+border-radius: 70px;
+border: 2px solid #6AC8BC;
+line-height:120px;
+text-align:center;
+vertical-align:middle;
+display:inline-block;
+}
+
+
+.responsive-image-sm{
+/*height:auto;*/
+margin-bottom: 25px;
+margin-left: 10px;
+width:80px;
+opacity: 0.8;
+}
+
+/* ==========================================================================
+Arrows
+========================================================================== */
+.scroller-arrow-half-down {
+width: 72px;
+height: 33px;
+background-image: url(../../img/arrow.png);
+-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+
+}
+/*.meetArrow{
+	background-image: url('http://i.imgur.com/MlGWcy7.png') ;
+	background-size: cover;
+}*/
+.scroller-arrow-half-down {
+width: 72px;
+height: 33px;
+background-image: url(../../img/arrow.png);
+}
+.scroller-arrow {
+width: 60px;
+height: 60px;
+background-image: url(../../img/arrow-big.png);
+cursor: pointer;
+display: block;
+margin: 0 auto;
+position: relative;
+-webkit-tap-highlight-color: transparent;
+}
+
+.scroller-arrow-border {
+width: 60px;
+height: 60px;
+border: 1px solid black;
+/*background-image: url(../../img/arrow-big.png*/);
+cursor: pointer;
+display: block;
+margin: 0 auto;
+position: relative;
+-webkit-tap-highlight-color: transparent;
+}
+.scroller-arrow-border-enh {
+width: 70px;
+height: 70px;
+
+/*border: 1px solid black;
+*//*background-image: url(../../img/arrow-big.png*/);
+cursor: pointer;
+display: block;
+margin: 0 auto;
+position: relative;
+-webkit-tap-highlight-color: transparent;
+}
+
+.cssArrpw {
+width:60px;
+height: 60px;
+background: #F2F2F2;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+border: 2px solid #6AC8BC;
+/*line-height:120px;*/
+text-align:center;
+vertical-align:middle;
+display:inline-block;
+}
+
+/* ==========================================================================
+Enhance Section
+========================================================================== */
+
+.cloudImg{
+	padding-top: 20%;
+	padding-left: 10%;
+}
+
+.responsive-image-enhance{
+height:auto;
+width:200px;
+/*opacity: 0.4;*/
+}
+
+.enhBtn{
+	width: 150px;
+	color: white;
+	background-color: #6AC8BC;
+	margin-top: 20%;
+	margin-left: 15%;
+}
+
+.enhDown{
+	padding-top: 10%;
+}
+
+.gearDwn{
+	padding-top: 8%;
+}
+
+/* ==========================================================================
+Gears
+========================================================================== */
+
+.responsive-image{
+height:auto;
+width:100px;
+opacity: 0.4;
+}
+
+.gear{
+    margin-right: -50px;
+}
+.gear2{
+    margin-top:-8px;
+    margin-left:-15px;
+}
+#gears{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.gearshift{
+    padding-left: 20px;
+}
+
+/* ==========================================================================
+Media Queries
+========================================================================== */
+@media (max-width: 1000px) {
+        .paraSize {
+    font-size:15px;
+    }
+  /*  .meet,.enhance{
+    	height: 800px;
+    }*/
+    .bigbtn{
+    	margin-top: 38%;
+    }
+
+    .cloudImg{
+	padding-top: 00%;
+	padding-left: 00%;
+
+
+}
+.enhBtn{
+	width: 150px;
+	color: white;
+	background-color: #6AC8BC;
+	margin-top: 10%;
+	margin-left: 0%;
+}
+.navPush{
+	margin-top: 2% !important;
+	height: 100px;
+	color: #fff;
+	z-index: 40;
+}
+.meetHeight{
+	height: auto;
+}
+.connectPadding{
+	padding-top: 0%;
+}
+}
+
+@media (max-width: 1600px) {
+     .globe{
+     	padding-top: 13%;
+	padding-left: 17%;
+     }
+}
+

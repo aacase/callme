@@ -1,0 +1,33 @@
+/* ==========================================================================
+Meet
+========================================================================== */
+.meet{
+	background-image: url('http://i.imgur.com/MlGWcy7.png') ;
+    background-size: cover;
+    height: auto;
+}
+.meetHeight{
+	height: 400px;
+}
+.circle {
+width: 100px;
+height: 100px;
+background: #F2F2F2;
+-moz-border-radius: 70px;
+-webkit-border-radius: 70px;
+border-radius: 70px;
+border: 2px solid $lifesize;
+line-height:120px;
+text-align:center;
+vertical-align:middle;
+display:inline-block;
+}
+
+
+.responsive-image-sm{
+/*height:auto;*/
+margin-bottom: 25px;
+margin-left: 10px;
+width:80px;
+opacity: 0.8;
+}

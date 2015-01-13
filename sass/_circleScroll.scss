@@ -1,0 +1,65 @@
+/* ==========================================================================
+Rotating Circles
+========================================================================== */
+.globeHeight{
+	opacity: 0.7;
+}
+
+.rotate1 {
+background:  $purple;
+display: block;
+border: 5px dotted white;
+width: 350px;
+height: 350px;
+border-radius: 50%;
+margin-left:auto;
+margin-right:auto;
+position: absolute;
+z-index: 1;
+
+}
+.rotate1 {
+/*-webkit-animation: rotate 24s linear infinite;*/
+border: 5px dashed white;
+}
+
+.rotate2 {
+background:  $purple;
+border: 5px dashed white;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+/*margin-left:25%;
+margin-top:25%;*/
+margin:23px;
+position: absolute;
+z-index: 2;
+}
+.rotate2 {
+/*-webkit-animation: rotate 6s linear reverse infinite;*/
+border: 5px dashed white;
+}
+.globe{
+width: 230px;
+height: 230px;
+border-radius: 50%;
+
+/*margin-top: 60px;
+margin-left: 19%;*/
+
+padding-top: 13%;
+padding-left: 15%;
+
+position: absolute;
+z-index: 3;
+line-height: 120px;
+font-size: 23rem;
+}
+@-webkit-keyframes rotate {
+from{
+-webkit-transform: rotate(0deg);
+}
+to{
+-webkit-transform: rotate(360deg);
+}
+}

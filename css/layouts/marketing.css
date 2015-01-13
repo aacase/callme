@@ -85,18 +85,19 @@ a.pure-button-primary {
 }
 
 
+
 /*
  * -- MENU STYLES --
  * I want to customize how my .pure-menu looks at the top of the page
  */
 
 .home-menu {
-    padding: 0.5em;
+    padding-top: 0.5em;
     text-align: center;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
 .home-menu.pure-menu-open {
-    background: #221188;
+    background: #fff;
 }
 .pure-menu.pure-menu-open.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
@@ -122,7 +123,7 @@ a.pure-button-primary {
 .home-menu li a:focus {
     background: none;
     border: none;
-    color: #AECFE5;
+    color: black;
 }
 
 
@@ -132,7 +133,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #221188;
+    background: $purple;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -287,7 +288,7 @@ a.pure-button-primary {
 
 
 .rotate1 {
-background:  #221188;
+background:  $purple;
 display: block;
 border: 5px dotted white;
 width: 350px;
@@ -305,7 +306,7 @@ border: 5px dotted white;
 }
 
 .rotate2 {
-background:  #221188;
+background:  $purple;
 border: 5px dashed white;
 width: 300px;
 height: 300px;
@@ -324,8 +325,8 @@ border: 5px dashed white;
 width: 230px;
 height: 230px;
 border-radius: 50%;
-padding-top: 4%;
-padding-left: 4.75%;
+padding-top: 4.25%;
+padding-left: 5.75%;
 margin-right:auto;
 
 position: absolute;
@@ -354,6 +355,36 @@ text-align:center;
 vertical-align:middle;
 display:inline-block;
 }
+.circleenh {
+width: 60px;
+height: 60px;
+background: #fff;
+-moz-border-radius: 60px;
+-webkit-border-radius: 60px;
+border-radius: 60px;
+border: 1px solid black;
+color: black;
+line-height:70px;
+text-align:center;
+vertical-align:middle;
+display:inline-block;
+text-decoration: none;
+}
+.circlelync {
+    padding-top: 10px
+width: 100px;
+height: 100px;
+background-color: #F2F2F2;
+-moz-border-radius: 70px;
+-webkit-border-radius: 70px;
+border-radius: 70px;
+border: 1.5px solid #6AC8BC;
+line-height:120px;
+text-align:center;
+vertical-align:middle;
+display:inline-block;
+}
+
 
 .placeholder{
     height:450px;
@@ -361,10 +392,13 @@ display:inline-block;
 }
 
 .tall{
-    height: 450px;
+    height: 430px;
+}
+.tall2{
+    height: 440px;
 }
 .gear{
-    margin-right: -60px;
+    margin-right: -50px;
 }
 .gear2{
     margin-top:-8px;
@@ -375,25 +409,30 @@ display:inline-block;
     margin-bottom: 2%;
 }
 
-.responsive-image{
-height:auto;
-width:100px;
-opacity: 0.4;
+ 
+.responsive-image-sm{
+/*height:auto;*/
+margin-bottom: 25px;
+margin-left: 10px;
+width:80px;
+opacity: 0.8;
 }
 .heroTop{
     background-color: #F3F5FB;
-    color: #221188 !important;
+    color: $purple !important;
     margin-top: 10px;
 }
 .bordertown{
-    border: 1px dotted white;
+    border: 1px solid white;
     color: #fff;
 }
 .bigText{
     margin-top: 5%;
 }
 .grey{
-    background-color: #E4E4E4;
+    /*background-color: #E4E4E4;*/
+    background-image: url('http://i.imgur.com/MlGWcy7.png') ;
+    background-size: cover;
 }
 
 .fff{
@@ -412,14 +451,17 @@ opacity: 0.4;
 .custBtn{
     background-color: #33BBAA;
     color: #fff;
+    width: 170px;
+    font-size: 25px;
 }
 .push{
     margin-left: 10%;
 }
 
 .squeeze{
-    width: 99%;
-    margin-left: 0.5%;
+    color: $purple !important;
+    background-color: #F3F5FB !important;
+    
 }
 
 .headlines{
@@ -433,7 +475,7 @@ opacity: 0.4;
 .bigbtn{
     width: 200px;
     font-size: 30px;
-    color: #221188;
+    color: $purple;
     font-weight: bold;
 }
 
@@ -446,9 +488,14 @@ opacity: 0.4;
 }
 
 .purps{
-    color: #221188;
+    color: $purple;
 }
-
+.purpsback{
+    background-color: $purple;
+}
+.greenBord{
+    border: 1px solid #33BBAA;
+}
 
 
 .enhance{
@@ -459,7 +506,10 @@ opacity: 0.4;
     width: 95%;
     margin-left: 2.5%;
 }
-
+.meetPush{
+    
+    margin-left: 6%;
+}
 .latched { position: fixed; top: 0; left: 8px; right: 8px; width: auto; }
 .spacer {
     width: 0;
@@ -484,8 +534,8 @@ opacity: 0.4;
 
 .connect{
     margin-top: 11%;
-    background-color: #221188;
-    height: 600px;
+    background-color: $purple;
+    height: 440px;
 }
 .white{
     color: #fff;
@@ -493,13 +543,192 @@ opacity: 0.4;
 /* ==========================================================================
 Swag
 ========================================================================== */
-.swag { background: url('http://www.sukhothai.com/uploads/wysiwyg/documents/hi-res-images/sukhothai-bussabong-meeting-room.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 200px 0; }
+.swag { background: url('../../img/01.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 200px 0; }
 .swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; text-align: center;}
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
 
 /* ==========================================================================
 Swag2
 ========================================================================== */
-.swag2 { background: url('http://www.voipsupply.com/blog/voip-insider/files/2012/07/LifeSize.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 200px 0; }
+.swag2 { background: url('../../img/02.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 200px 0; }
 .swag2 h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; text-align: center;}
 .swag2 h1 span { display: block; font-size: 25px; margin-top: 20px; }
+
+/* ==========================================================================
+Swag3
+========================================================================== */
+.swag3 { background: url('../../img/03.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 200px 0; }
+.swag3 h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; text-align: center;}
+.swag3 h1 span { display: block; font-size: 25px; margin-top: 20px; }
+
+ 
+ .arrow{
+    margin-left: 50%;
+    align-items:flex-end;
+ }
+.scroller-arrow-holder{
+    width: 100%;
+
+}
+.scroller-arrow-half-down {
+width: 72px;
+height: 33px;
+background-image: url(../../img/arrow.png);
+-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+
+}
+.scroller-arrow-half-down {
+width: 72px;
+height: 33px;
+background-image: url(../../img/arrow.png);
+}
+.scroller-arrow {
+width: 60px;
+height: 60px;
+background-image: url(../../img/arrow-big.png);
+cursor: pointer;
+display: block;
+margin: 0 auto;
+position: relative;
+-webkit-tap-highlight-color: transparent;
+}
+
+.scroller-arrow-border {
+width: 60px;
+height: 60px;
+border: 1px solid black;
+/*background-image: url(../../img/arrow-big.png*/);
+cursor: pointer;
+display: block;
+margin: 0 auto;
+position: relative;
+-webkit-tap-highlight-color: transparent;
+}
+.scroller-arrow-border-enh {
+width: 70px;
+height: 70px;
+
+/*border: 1px solid black;
+*//*background-image: url(../../img/arrow-big.png*/);
+cursor: pointer;
+display: block;
+margin: 0 auto;
+position: relative;
+-webkit-tap-highlight-color: transparent;
+}
+
+.cssArrpw {
+width:60px;
+height: 60px;
+background: #F2F2F2;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+border: 2px solid #6AC8BC;
+/*line-height:120px;*/
+text-align:center;
+vertical-align:middle;
+display:inline-block;
+}
+.borderthing{
+    width:96%;
+    margin-left: 2%;
+}
+.menuDown{
+    margin-top: -50px;
+    position: fixed;
+    color: white;
+    z-index: 4 !important;
+}
+
+.topBanner{
+    width: 96%;
+    height: 10px;
+    margin-left: 2%;
+    background-color: #F1F3FA;
+}
+.header{
+    margin-top: 10px !important;
+}
+
+.dotted{
+    width: 96%;
+    margin-left: 2%;
+    /*border: 1px dotted white;*/
+}
+
+.meetHead{
+ /*   right: 30px;*/
+    top: 15px;
+}
+.meetHead2{
+   /* right: 30px;*/
+    top: 30px;
+}
+
+
+.enhDown{
+    padding-top: 10%;
+}
+
+.gearshift{
+    padding-left: 20px;
+}
+
+.trileft{
+    position: fixed;
+    top: 80px;
+    transform: rotate(220deg);
+    -webkit-transform: rotate(220deg);
+    -moz-transform: rotate(220deg);
+    -o-transform: rotate(220deg);
+    -ms-transform: rotate(220deg)
+    
+}
+.triright{
+    
+    position: fixed;
+    top: 80px;
+    margin-left: 99%;
+    transform: rotate(318deg);
+    -webkit-transform: rotate(318deg);
+    -moz-transform: rotate(318deg);
+    -o-transform: rotate(318deg);
+    -ms-transform: rotate(318deg)
+    
+}
+.imgPush{
+    padding-left: 10%;
+    padding-top: 15%;
+}
+
+.btnPush{
+    margin-left: 16%;
+}
+
+.fa:hover{
+  color:black !important;
+}
+
+.circleenh a:visited{
+  color:white!important;
+}
+
+
+.blackbord{
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.bigger{
+    font-size: 25px;
+}
+
+
+
+.down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(61, 201, 179, 0.8); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }

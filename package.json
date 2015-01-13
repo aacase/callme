@@ -1,0 +1,11 @@
+{
+  "name": "call-me",
+  "version": "0.1.1",
+  "private": true,
+  "dependencies": {
+    "grunt": "~0.4.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-sass": "^0.8.1"
+  }
+}

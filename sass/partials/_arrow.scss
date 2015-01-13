@@ -1,0 +1,69 @@
+/* ==========================================================================
+Arrows
+========================================================================== */
+.scroller-arrow-half-down {
+width: 72px;
+height: 33px;
+background-image: url(../../img/arrow.png);
+-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+
+}
+/*.meetArrow{
+	background-image: url('http://i.imgur.com/MlGWcy7.png') ;
+	background-size: cover;
+}*/
+.scroller-arrow-half-down {
+width: 72px;
+height: 33px;
+background-image: url(../../img/arrow.png);
+}
+.scroller-arrow {
+width: 60px;
+height: 60px;
+background-image: url(../../img/arrow-big.png);
+cursor: pointer;
+display: block;
+margin: 0 auto;
+position: relative;
+-webkit-tap-highlight-color: transparent;
+}
+
+.scroller-arrow-border {
+width: 60px;
+height: 60px;
+border: 1px solid black;
+
+cursor: pointer;
+display: block;
+margin: 0 auto;
+position: relative;
+-webkit-tap-highlight-color: transparent;
+}
+.scroller-arrow-border-enh {
+width: 70px;
+height: 70px;
+
+
+
+cursor: pointer;
+display: block;
+margin: 0 auto;
+position: relative;
+-webkit-tap-highlight-color: transparent;
+}
+
+.cssArrpw {
+width:60px;
+height: 60px;
+background: #F2F2F2;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+border: 2px solid $lifesize;
+/*line-height:120px;*/
+text-align:center;
+vertical-align:middle;
+display:inline-block;
+}

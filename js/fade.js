@@ -17,24 +17,17 @@ $(document).ready(function(){
   
 });
 
-   $(window).scroll(function() {
+$(window).scroll(function() {
 
-    if ($(this).scrollTop()>0)
+    if ($(this).scrollTop()>150)
      {
-        
          $('#1').fadeIn(1500, function(){
          $('#2').fadeIn(1500, function(){
               $('#3').fadeIn(1500,function(){
-                $('#4').fadeIn(1500, function(){
-
-                $( 'div' ).removeClass("placeholder");
-                });
+               $( 'div' ).removeClass("meetHeight");
               });
          });
      });
      }
-    // else
-    //  {
-    //   $('.a').fadeIn();
-    //  }
+   
  });

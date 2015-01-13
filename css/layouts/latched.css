@@ -96,7 +96,7 @@ a.pure-button-primary {
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
 .home-menu.pure-menu-open {
-    background: #221188;
+    background: $purple;
 }
 .pure-menu.pure-menu-open.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
@@ -132,7 +132,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #221188;
+    background: $purple;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -287,7 +287,7 @@ a.pure-button-primary {
 
 
 .rotate1 {
-background:  #221188;
+background:  $purple;
 display: block;
 border: 5px dotted white;
 width: 350px;
@@ -305,7 +305,7 @@ border: 5px dotted white;
 }
 
 .rotate2 {
-background:  #221188;
+background:  $purple;
 border: 5px dashed white;
 width: 300px;
 height: 300px;
@@ -382,7 +382,7 @@ opacity: 0.4;
 }
 .heroTop{
     background-color: #F3F5FB;
-    color: #221188 !important;
+    color: $purple !important;
     margin-top: 10px;
 }
 .bordertown{
@@ -433,7 +433,7 @@ opacity: 0.4;
 .bigbtn{
     width: 200px;
     font-size: 30px;
-    color: #221188;
+    color: $purple;
     font-weight: bold;
 }
 
@@ -446,7 +446,7 @@ opacity: 0.4;
 }
 
 .purps{
-    color: #221188;
+    color: $purple;
 }
 
 .enhance{
