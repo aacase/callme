@@ -1,16 +1,10 @@
-Pure CSS Layout Examples
+Example Parallax Landing Page
 ========================
 
-Layout examples using [Pure CSS][pure] compiled from the [pure-site][] project.
-
-[pure]: http://purecss.io/
-[pure-site]: https://github.com/yahoo/pure-site
+For use with Lifesize Cloud
 
 
 License
 -------
 
-This software is free to use under the Yahoo! Inc. BSD license.
-See the [LICENSE file][] for license text and copyright information.
-
-[LICENSE file]: https://github.com/yahoo/pure-site/blob/master/LICENSE.md
+MIT up in this bidnessssss
