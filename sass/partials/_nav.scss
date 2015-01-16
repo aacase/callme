@@ -21,7 +21,7 @@ Fixed Banner
 .fixedBanner{
 	width: 98%;
 	margin-left: 1%;
-	color: $purple;
+	color: $iconColor;
 	padding-top: 8% !important;
 	position: fixed;
 	z-index: 20;
@@ -42,4 +42,14 @@ Fixed Banner
 .mobileSubHead{
 	background-color: $bannerBackground;
 	color: $purple;
+}
+
+.fixedBanner{
+	h2{
+		margin-bottom: 20px;
+	}
+}
+
+.active{
+	color: $lifesize !important;
 }

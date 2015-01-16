@@ -3,28 +3,36 @@ Enhance Section
 ========================================================================== */
 
 .cloudImg{
-	padding-top: 20%;
-	padding-left: 10%;
+	padding-top: 10%;
+	padding-left: 8%;
 }
 
 .responsive-image-enhance{
 height:auto;
-width:200px;
+width:150px;
 /*opacity: 0.4;*/
 }
 
 .enhBtn{
 	width: 150px;
-	color: white;
-	background-color: $lifesize;
+	color: white !important;
+	background-color: $lifesize !important;
 	margin-top: 20%;
-	margin-left: 15%;
+	// margin-left: 15%;
 }
 
 .enhDown{
-	padding-top: 10%;
+	padding-top: 25%;
 }
 
 .gearDwn{
 	padding-top: 8%;
+}
+
+.enhUp{
+	color: $lifesize;
+}
+
+.panel3down{
+	padding-top:2%;
 }

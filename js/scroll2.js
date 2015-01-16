@@ -179,19 +179,12 @@ var $cog = $('#cog'),
     $body = $(document.body),
     bodyHeight = $body.height();
 
-
-
 $(window).scroll(function () {
     $cog.css({
-        'transform': 'rotate(' + ($body.scrollTop() / bodyHeight * 360) + 'deg)',
-        '-webkit-transform': 'rotate(' + ($body.scrollTop() / bodyHeight * 360) + 'deg)',
-        'display' : 'inline-block'
-        
-
+        'transform': 'rotate(' + ($body.scrollTop() / bodyHeight * 360) + 'deg)'
     });
     $cog2.css({
-        'transform': 'rotate(' + (-($body.scrollTop() / bodyHeight * 360) + 'deg)'),
-        '-webkit-transform': 'rotate(' + (-($body.scrollTop() / bodyHeight * 360) + 'deg)')
+        'transform': 'rotate(' + (-($body.scrollTop() / bodyHeight * 360) + 'deg)')
 
     });
 });
@@ -224,14 +217,23 @@ function onMouseWheel(event)
         }
 
         if (counter==1){
-            $(".meet" || ".meetwhite").animatescroll({padding:175});
+            $(".meetwhite").animatescroll({padding:175});
+            $('#connect').removeClass("active");
+            $('#enhance').removeClass("active");
             $('#join').addClass("active");
+
         }
         else if (counter==2){
             $(".enhance").animatescroll({padding:170});
+             $('#join').removeClass("active");
+             $('#connect').removeClass("active");
+            $('#enhance').addClass("active");
         }
         else if (counter==0){
-            $(".connect" || ".connectwhite").animatescroll({padding:210});
+            $(".connectwhite").animatescroll({padding:210});
+             $('#connect').addClass("active");
+              $('#enhance').removeClass("active");
+               $('#join').removeClass("active");
         }
 
          if (counter > 2){
@@ -262,13 +264,23 @@ function onKeyDown(event)
         }
 
         if (counter==1){
-            $(".meet" || ".meetwhite").animatescroll({padding:175});
+            $(".meetwhite").animatescroll({padding:175});
+             $('#connect').removeClass("active");
+            $('#enhance').removeClass("active");
+            $('#join').addClass("active");
         }
         else if (counter==2){
             $(".enhance").animatescroll({padding:170});
+            $('#join').removeClass("active");
+             $('#connect').removeClass("active");
+            $('#enhance').addClass("active");
         }
+        
         else if (counter==0){
-            $(".connect" || ".connectwhite").animatescroll({padding:210});
+            $(".connectwhite").animatescroll({padding:210});
+            ('#connect').addClass("active");
+              $('#enhance').removeClass("active");
+               $('#join').removeClass("active");
         }
 
         if (counter > 2){

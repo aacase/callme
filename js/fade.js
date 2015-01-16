@@ -24,7 +24,7 @@ $(window).scroll(function() {
          $('#1').fadeIn(1500, function(){
          $('#2').fadeIn(1500, function(){
               $('#3').fadeIn(1500,function(){
-               $( 'div' ).removeClass("meetHeight");
+               // $( 'div' ).removeClass("meetHeight");
               });
          });
      });

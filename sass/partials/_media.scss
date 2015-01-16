@@ -23,7 +23,7 @@ Media Queries
 	color: white;
 	background-color: #6AC8BC;
 	margin-top: 10%;
-	margin-left: 10%;
+	// margin-left: 10%;
 }
 .navPush{
 	margin-top: 2% !important;
@@ -40,8 +40,14 @@ Media Queries
 }
 
 @media (max-width: 1600px) {
-     .globe{
-     	padding-top: 13%;
-	padding-left: 17%;
-     }
+ //     .globe{
+ //     	padding-top: 13%;
+	// padding-left: 17%;
+ //     }
+}
+
+@media (min-width: 1201px) {
+   .connect{
+   	height: 650px;
+   }
 }

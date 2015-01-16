@@ -1,0 +1,17 @@
+.SideBar{
+  position: fixed;
+  top: 0; bottom: 0; left: 0;  
+  width: 150px;
+  padding-top: 150px;
+  background-color: #383636;
+}
+
+.squeezedown{
+	width: 90%;
+	margin-left: 150px;
+	@media(max-width: 1200px){
+
+		width: 100%;
+	margin-left: 0%;
+	}
+}
