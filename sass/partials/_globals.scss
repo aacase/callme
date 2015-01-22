@@ -20,13 +20,27 @@ Fixed Banner
 }
 .fixedBanner{
 	width: 96%;
-	margin-right: 2%;
+	margin-left: 1%;
 	color: $purple;
-	padding-top: 8% !important;
+	
 	position: fixed;
 	z-index: 20;
 	background-color: $bannerBackground;
 }
+.logo{
+	margin-left: 0.5%;
+	img{
+		padding-top: 0.25%;
+		width: 7%;
+		height: auto;
+	}
+}
+
+.bannerInnards{
+	padding-top: 6% !important;
+
+}
+
 .navHeader{
 	margin-left: 35%;
 }
@@ -59,4 +73,8 @@ a{
 
 .purpleback{
 	background-color: $purple;
+}
+
+.paraSize{
+	font-size:20px;
 }
